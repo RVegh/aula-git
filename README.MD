@@ -10,11 +10,12 @@ git init
 
 git add nome_do_arquivo.ext
 
-git add . - adiciona todas as alterações do projeto
+git add . - Adiciona todas as alterações do projeto
 
 # Comitando
 
 git commit -m "added new file" (-m passa a mensagem do que foi adicionado)
+
 
 # Vendo logs de alteração
 
@@ -26,9 +27,9 @@ git show 'hash do commit' ou git show para ver o ultimo
 
 # Criando ramificação - nova branch
 
-git branch nome/nome
+git branch nome/nome - nova branch
 
-git checkout branch/branch - para entrar na branch desejada
+git checkout branch/branch - Para entrar na branch desejada
 
 git status - ver a branch atual
 
@@ -42,13 +43,14 @@ git -D nome/nome
 
 # Adicionando projeto ao repositório do github
 
-git remote add origin https://github.com/RVegh/aula-git.git - exemplo de link do repositório
+git remote add origin https://github.com/RVegh/aula-git.git - Exemplo de link do repositório
 
-git remote -v - mostra os repositórios remotos
+git remote -v - Mostra os repositórios remotos
 
 # Git push - Empurrando o repositório local para o repositório online
 
  git push -u origin master - Primeiro push para criar a master no repositório online
 
+ git push - Demais pushs das alterações
 
 
