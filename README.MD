@@ -35,9 +35,15 @@ git checkout branch/branch - Para entrar na branch desejada
 
 # Recuperando alterações 
 
-git checkout --nome do arquivo
+git checkout --nome do arquivo 
 
-# Visão da branch atual
+git checkout hash do commit --nome do arquivo a ser recuperado - - busca a ultima alteração 
+
+# Excluindo arquivos
+
+git checkout -D nome do arquivo
+
+# Visão da branch atual e alterações
 git status - ver a branch atual
 
 # Unir as alterações(branchs) em produção (merge)
@@ -63,5 +69,9 @@ git remote -v - Mostra os repositórios remotos
 # Atualizando alterações
 
 git pull
+
+# Clonando um repositório
+
+git clone https://LINK
 
 
