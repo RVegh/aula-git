@@ -10,6 +10,8 @@ git init
 
 git add nome_do_arquivo.ext
 
+git add . - adiciona todas as alterações do projeto
+
 # Comitando
 
 git commit -m "added new file" (-m passa a mensagem do que foi adicionado)
@@ -47,4 +49,6 @@ git remote -v - mostra os repositórios remotos
 # Git push - Empurrando o repositório local para o repositório online
 
  git push -u origin master - Primeiro push para criar a master no repositório online
+
+
 
