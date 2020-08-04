@@ -33,6 +33,11 @@ git branch nome/nome - nova branch
 
 git checkout branch/branch - Para entrar na branch desejada
 
+# Recuperando alterações 
+
+git checkout --nome do arquivo
+
+# Visão da branch atual
 git status - ver a branch atual
 
 # Unir as alterações(branchs) em produção (merge)
