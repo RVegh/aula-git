@@ -16,6 +16,8 @@ git add . - Adiciona todas as alterações do projeto
 
 git commit -m "added new file" (-m passa a mensagem do que foi adicionado)
 
+git commit -am "comitando direto utilizando o parâmetro -a"
+
 
 # Vendo logs de alteração
 
