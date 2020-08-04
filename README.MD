@@ -16,7 +16,7 @@ git add . - Adiciona todas as alterações do projeto
 
 git commit -m "added new file" (-m passa a mensagem do que foi adicionado)
 
-git commit -am "comitando direto utilizando o parâmetro -a"
+git commit -am "comitando direto utilizando o parâmetro -a para adicionar automaticamente"
 
 
 # Vendo logs de alteração
@@ -54,5 +54,9 @@ git remote -v - Mostra os repositórios remotos
  git push -u origin master - Primeiro push para criar a master no repositório online
 
  git push - Demais pushs das alterações
+
+# Atualizando alterações
+
+git pull
 
 
